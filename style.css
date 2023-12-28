@@ -29,7 +29,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     width: 412px;
     height: 416px;
     background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
@@ -40,4 +39,18 @@ main {
 main .container {
     width: 80%;
     height: 80%;
+}
+
+main .container-stella {
+    width: 48px;
+    height: 48px;
+    background-color: var(--DarkBlue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-stella img {
+    width: 16px;
 }

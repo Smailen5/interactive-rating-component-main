@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
 #nascosto {
     display: none;
 }
@@ -12,6 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: var(--VeryDarkBlue);
 }
 
 main {
@@ -19,4 +30,9 @@ main {
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
+    width: 412px;
+    height: 416px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    border-radius: 30px;
+    color: var(--White);
 }

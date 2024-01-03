@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
+    font-size: 15px;
 }
 
 :root {
@@ -57,4 +58,36 @@ main .container-stella {
 
 .container-stella img {
     width: 16px;
+}
+
+.container h1 {
+    font-size: 1.8rem;
+}
+
+.container > p {
+    color: var(--Medium-Gray, #7C8798);
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > p > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--DarkBlue, #262E38);
+}
+
+.container > input {
+    background: var(--Orange, #FC7614);
+    border: none;
+    height: 2.8rem;
+    border-radius: 1.5rem;
+    color: var(--White);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }

@@ -71,7 +71,7 @@ main .container-stella {
     justify-content: space-between;
 }
 
-.container > p > span {
+p > span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,5 +95,10 @@ main .container-stella {
 
 .container > p > span:hover {
     background: var(--Orange);
+    color: var(--White);
+}
+
+.active {
+    background: var(--LightGrey);
     color: var(--White);
 }

@@ -15,7 +15,12 @@ function uscita() {
     this.style.color = '';
 }
 
-
+review.forEach( (review) => {
+    review.addEventListener('click', () => {
+        review.classList.toggle('active');
+        console.log('hai cliccato una delle stelle');
+    })
+})
 
 
 

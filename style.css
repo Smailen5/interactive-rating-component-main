@@ -87,7 +87,5 @@ main .container-stella {
     height: 2.8rem;
     border-radius: 1.5rem;
     color: var(--White);
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    cursor: pointer;
 }

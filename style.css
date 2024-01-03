@@ -79,6 +79,7 @@ main .container-stella {
     height: 50px;
     border-radius: 50%;
     background: var(--DarkBlue, #262E38);
+    cursor: pointer;
 }
 
 .container > input {
@@ -88,4 +89,11 @@ main .container-stella {
     border-radius: 1.5rem;
     color: var(--White);
     cursor: pointer;
+}
+
+/* ---------- classi hover ---------- */
+
+.container > p > span:hover {
+    background: var(--Orange);
+    color: var(--White);
 }

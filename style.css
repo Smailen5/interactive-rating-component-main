@@ -97,6 +97,16 @@ p > span {
     text-align: center;
 }
 
+.prova {
+    color: var(--Orange);
+    background: var(--DarkBlue);
+    width: 193px;
+    height: 32px;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* ---------- classi hover ---------- */
 

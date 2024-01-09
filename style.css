@@ -15,10 +15,6 @@
     --VeryDarkBlue: hsl(216, 12%, 8%);
 }
 
-#nascosto {
-    display: none;
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -92,9 +88,15 @@ p > span {
     cursor: pointer;
 }
 
-#form-review {
-    
+/* FORM COMPLETATO */
+
+#form-final {
+    align-items: center;
 }
+#form-final p {
+    text-align: center;
+}
+
 
 /* ---------- classi hover ---------- */
 
@@ -105,63 +107,25 @@ p > span:hover {
 
 /* ---------- classi per javascript ---------- */
 
+.container.hidden {
+    display: none;
+}
+
+.selected {
+    background: var(--LightGrey);
+    color: var(--White);
+}
+
 .active {
     transition: transform .3s ease;
-    transform: scale(0);
-}
-.container.active {
     transform: translateX(-400px);
-
+    
 }
+
+
+
 
 
 
 
 /* ------------------------------------------------------------------------------------------------------------- */
-
-
-/*animazione bottone accedi*/
-.navigation a::after {
-    transform: scaleX(0);
-    transition: .5s;
-}
-
-/*animazione bottone accedi*/
-.navigation a:hover:after {
-    transform: scaleX(1);
-}
-
-/*impostazione bottone accedi*/
-.navigation .btnLogin-popup {
-    transition: .5s;
-}
-
-/*box del form*/
-.wrapper {
-    overflow: hidden;
-    transition: transform .3s ease, height .2s ease;
-    transform: scale(0);
-}
-
-.wrapper.active-popup {
-    transform: scale(1);
-}
-
-/*trasnsizione accedi*/
-.wrapper .form-box.login {
-    transition: transform .3s ease;
-    transform: translateX(0);
-}
-
-.wrapper.active .form-box.login {
-    transform: translateX(-420px);
-}
-/*transazione registra*/
-.wrapper .form-box.register {
-    transform: translateX(420px);
-}
-
-.wrapper.active .form-box.register {
-    transform: translateX(0);
-    transition: transform .3s ease;
-}

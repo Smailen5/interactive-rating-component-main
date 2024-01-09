@@ -1,7 +1,8 @@
 
-let button = document.querySelector('#submit');
-let review = document.querySelectorAll('.container > p > span');
-let form = document.querySelector('#form-review');
+const button = document.querySelector('#submit');
+const review = document.querySelectorAll('.container > p > span');
+const form = document.querySelector('.container');
+const succes = document.querySelector('#form-final');
 
 button.addEventListener('mouseover', entrata);
 button.addEventListener('mouseout', uscita);
@@ -18,37 +19,20 @@ function uscita() {
 
 review.forEach( (review) => {
     review.addEventListener('click', () => {
-        review.classList.toggle('active');
+        review.classList.toggle('selected');
         console.log('hai cliccato una delle stelle');
     })
 })
 
 button.addEventListener('click', function() {
     form.classList.add('active');
+    
+    setTimeout(function() {
+        succes.classList.remove('hidden');
+        form.classList.add('hidden');
+    }, 500);
 })
 
 
 // ---------------------------------------------------------------------------------------------------------
-
-const wrapper = document.querySelector('.wrapper');
-const loginLink = document.querySelector('.login-link');
-const registerLink = document.querySelector('.register-link');
-const btnPopup = document.querySelector('.btnLogin-popup');
-const iconClose = document.querySelector('.icon-close');
-
-registerLink.addEventListener('click', () => {
-    wrapper.classList.add('active');
-});
-
-loginLink.addEventListener('click', () => {
-    wrapper.classList.remove('active');
-});
-
-btnPopup.addEventListener('click', () => {
-    wrapper.classList.add('active-popup');
-});
-
-iconClose.addEventListener('click', () => {
-    wrapper.classList.remove('active-popup');
-});
 

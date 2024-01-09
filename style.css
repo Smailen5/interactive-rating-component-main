@@ -93,12 +93,15 @@ p > span {
 
 /* ---------- classi hover ---------- */
 
-.container > p > span:hover {
+p > span:hover {
     background: var(--Orange);
     color: var(--White);
 }
+
+/* ---------- classi per javascript ---------- */
 
 .active {
     background: var(--LightGrey);
     color: var(--White);
 }
+

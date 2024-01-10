@@ -29,7 +29,7 @@ review.forEach((review) => {
             console.log(reviewContent);
             
             reviewSelect.innerText = ` ${reviewContent} `;// scrivo dentro lo span
-            console.log(reviewSelect); // perche c'è dello spazio e non viene aggiunto7
+            console.log(reviewSelect); // perche c'è dello spazio e non viene aggiunto?
 
         }
     })

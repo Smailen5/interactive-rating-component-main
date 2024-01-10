@@ -68,7 +68,7 @@ main .container-stella {
     justify-content: space-between;
 }
 
-p > span {
+p > span.bubble {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +110,7 @@ p > span {
 
 /* ---------- classi hover ---------- */
 
-p > span:hover {
+p > span.blubble:hover {
     background: var(--Orange);
     color: var(--White);
 }

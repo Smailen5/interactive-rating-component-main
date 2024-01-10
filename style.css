@@ -110,7 +110,7 @@ p > span.bubble {
 
 /* ---------- classi hover ---------- */
 
-p > span.blubble:hover {
+.bubble:hover {
     background: var(--Orange);
     color: var(--White);
 }
@@ -121,7 +121,7 @@ p > span.blubble:hover {
     display: none;
 }
 
-.selected {
+p > span.selected {
     background: var(--LightGrey);
     color: var(--White);
 }

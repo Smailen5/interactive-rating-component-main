@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Smailen5/interactive-rating-component-main)
-- Live Site URL: [Add live site URL here](https://smailen5.github.io/interactive-rating-component-main/)
+- Solution URL: [solution URL here](https://github.com/Smailen5/interactive-rating-component-main)
+- Live Site URL: [live site URL here](https://smailen5.github.io/interactive-rating-component-main/)
 
 ## My process
 
@@ -61,6 +61,7 @@ review.classList.contains('selected')
 ### Continued development
 
 - correggere lo script per quanto riguarda la selezione, al momento è possibile selezionare piu di una recensione ma, prendo solo il valore dell'ultima selezionata. Voglio correggere il codice per permettere una sola selezione alla volta.
+
 - nonostante 
 ```js
 reviewSelect.innerText = ` ${reviewContent} `;
@@ -70,6 +71,7 @@ dia come risultato:
 ```html
 <span id="rating-here"> 5 </span>
 ```
+
 non stampa nello span il valore preceduto e seguito dallo spazio. Voglio correggere questo errore in futuro.
 - correggere lo spazio tra main e body, non su tutti i dispositivi c'è abbastanza spazio.
 
